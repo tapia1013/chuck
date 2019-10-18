@@ -10,7 +10,7 @@ function getJokes(e) {
   const xhr = new XMLHttpRequest();
 
   // then we call xhr.open
-  xhr.open('GET', `http://api.icndb.com/jokes/random/${number}`, true)
+  xhr.open('GET', `https://api.icndb.com/jokes/random/${number}`, true)
 
   // what we want to do when we get the data xhr.onload
   xhr.onload = function () {
