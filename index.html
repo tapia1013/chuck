@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chuck Norris Jokes</title>
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+
+  <style>
+    li {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #570bb3;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container" style="text-align: center; padding-top:20px;">
+    <h2>Chuck Norries Jokes</h2>
+    <form>
+      <div>
+        <label for="number">Number of Jokes</label>
+        <input type="number" id="number">
+      </div>
+      <div>
+        <button class="get-jokes">Get Jokes</button>
+      </div>
+    </form>
+
+    <!-- JOKES TO RENDER -->
+    <ul class="jokes"></ul>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
